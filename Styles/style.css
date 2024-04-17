@@ -1,0 +1,60 @@
+html, body {
+    margin: 10px 100px;
+    padding: 10px;
+    display: flex;
+    font-family: "Sitka Display", Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+header {
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 19px 15px 10px 0;
+    text-align: end;
+    color: aliceblue;
+    border-radius: 10px;
+
+    top: 0;
+
+}
+header h1 {
+    font-size: xxx-large;
+}
+
+table {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+td img {
+    width: 35px; /* Задаємо фіксовану ширину для всіх картинок */
+    height: 35px; /* Задаємо фіксовану висоту для всіх картинок */
+}
+
+/* section {
+    padding-left: 10px;
+}*/
+
+h3 {
+    padding-left: 15px;
+    font-weight: bold;
+    color: maroon;
+}
+
+.content p {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+b {
+    color: brown;
+}
+
+span {
+    color: darkslategray;
+}
