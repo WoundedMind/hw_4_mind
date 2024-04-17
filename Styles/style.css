@@ -28,11 +28,17 @@ table {
     display: flex;
     text-align: center;
     justify-content: center;
+    width: 100%;
 }
 
+
+
 td img {
-    width: 35px; /* Задаємо фіксовану ширину для всіх картинок */
-    height: 35px; /* Задаємо фіксовану висоту для всіх картинок */
+    width: 35px;
+    height: 35px;
+    display: inline;
+    justify-content: center;
+    text-align: center;
 }
 
 /* section {
